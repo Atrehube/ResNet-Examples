@@ -10,9 +10,9 @@
 # Request memory 
 #SBATCH --mem=16G
 # Maximum runtime of 10 minutes
-#SBATCH --time=10:00
+#SBATCH --time=60:00
 # Name of this job
-#SBATCH --job-name=mnist_test
+#SBATCH --job-name=DL_HW1
 # Output of this job, stderr and stdout are joined by default
 # %x=job-name %j=jobid
 #SBATCH --output=../output/%x_%j.out
