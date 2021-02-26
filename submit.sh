@@ -26,4 +26,4 @@ cd ${SLURM_SUBMIT_DIR}
 
 # your job execution follows:
 conda activate tf2
-time python ~/scratch/deepgreen-keras-tutorial/src/res-net.py
+time python ~/scratch/ResNet-Examples/res-net.py
