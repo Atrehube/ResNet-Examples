@@ -134,7 +134,7 @@ if __name__ == '__main__':
       loss=tf.losses.SparseCategoricalCrossentropy(from_logits=True),
       metrics=['accuracy'])
     # 20 epochs proof of concept
-    epochs = 2
+    epochs = 20
     # fit model
     history = scratch_model.fit(
       train_ds,
@@ -187,7 +187,7 @@ if __name__ == '__main__':
     
     #model.summary()
     
-    initial_epochs = 2 # HARD cap. 
+    initial_epochs = 500 # HARD cap. 
     
     # Stop new epochs when the model has converged by using callbacks
     usualCallback = EarlyStopping()
