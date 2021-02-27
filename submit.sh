@@ -22,8 +22,8 @@ source ~/.bashrc
 
 # Move to submission directory
 # Should be ~/scratch/deepgreen-keras-tutorial/src
-cd ~/scratch/ResNet-Examples/res-net.py
+cd ~/scratch/ResNet-Examples/src
 
 # your job execution follows:
 conda activate tf2
-time python ~/scratch/ResNet-Examples/res-net.py
+time python ~/scratch/ResNet-Examples/src/res-net.py
