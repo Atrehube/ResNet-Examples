@@ -22,7 +22,7 @@ source ~/.bashrc
 
 # Move to submission directory
 # Should be ~/scratch/deepgreen-keras-tutorial/src
-cd ${SLURM_SUBMIT_DIR}
+cd ~/scratch/ResNet-Examples/res-net.py
 
 # your job execution follows:
 conda activate tf2
